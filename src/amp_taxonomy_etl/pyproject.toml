@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amp-taxonomy-errors-etl"
+version = "0.1.0"
+description = "ETL that ingests Amplitude Taxonomy Validation Error emails and loads them to BigQuery"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "George Kyle" }]
+dependencies = [
+  "google-cloud-bigquery>=3.25.0",
+  "google-auth>=2.29.0",
+  "pandas>=2.2.2",
+  "lxml>=5.2.2",
+  "html5lib>=1.1",
+]
+
+[project.scripts]
+amp-tax-etl = "amp_taxonomy_etl.cli:main"
