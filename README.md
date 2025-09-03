@@ -1,4 +1,3 @@
-[![CI](https://github.com/GKyle23/amp-taxonomy-errors-etl/actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 
